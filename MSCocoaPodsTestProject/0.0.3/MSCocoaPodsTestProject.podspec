@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "MyCocoaPodsTestProject"
-  s.version      = "0.0.2"
+  s.name         = "MSCocoaPodsTestProject"
+  s.version      = "0.0.3"
   s.summary      = "test for CocoaPods"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/MrSongzj/MyCocoaPodsTestProject.git", :branch => "dev_test_pod_update" }
+  s.source       = { :git => "https://github.com/MrSongzj/MSCocoaPodsTestProject.git", :branch => "dev_version_3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "*.{h,m}"
+  s.source_files  = "*.swift"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -132,6 +132,6 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "MSCocoaPodsTestProject", "~> 0.0.1"
+  # s.dependency "JSONKit", "~> 1.4"
 
 end
